@@ -10,7 +10,7 @@ public class Driver {
         System.out.println("Enter the number of states: ");
         len = s.nextInt();
         // parse input file
-        System.out.println("Enter state information in the format: state_name reward (action next_state reward) ...");
+        System.out.println("Enter state information in the format: state_name reward (action next_state probability) ...");
         System.out.println("for example: s0 10 (a0 s1 0.5) (a1 s1 1) (a2 s2 2)");
         State[] stateInfo = readData(s, len);
         // create value iterator and calculate best policy

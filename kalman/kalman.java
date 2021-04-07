@@ -52,7 +52,7 @@ class Kalman{
             System.out.println("Enter same no. of elements for measurements and motion");
             System.exit(0);
         }
-        System.out.println("Enter your measurement variance: ");
+        System.out.println("Enter your motion variance: ");
         Double motion_var = s.nextDouble();
         Double mu = 0.0;
         Double var = 10000.0;
